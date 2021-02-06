@@ -1,0 +1,12 @@
+# CONFIGURATION FILE
+# In this file you can configure some setting you want
+# Sharp symbol means comment and this stroke doesn't affect anything
+# Variables written without sharp
+# Don't change here anything if you don't know what are you doing
+chars : $@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,"^`'.
+scaleMultiply : 0.2
+charWidth : 10
+charHeight : 20
+fontPath : C:\\Windows\\Fonts\\Consola.ttf
+fontSize : 20
+imgName : source.jpg
