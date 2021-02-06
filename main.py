@@ -72,7 +72,7 @@ for i in range(height):
         imgDraw.text((j * charWidth, i * charHeight), getChar(h), font=font, fill=(r, g, b))
     file.write("\n")
     os.system("cls" if os.name == "nt" else "clear")
-    print(f"{round((i + 1) / height * 100, 1)}%\tTime: {hourT}:{minT}:{secT}")
+    print(f"{round((i + 1) / height * 100, 1)}%\tTime: {hourT if hourT > 9 else '0' + str(hourT)}:{minT if minT > 9 else '0' + str(minT)}:{secT if secT > 9 else '0' + str(secT)}")
     print(f"[{'█' * int(round((i + 1) / height * 100, 0) // 10)}{'▒'* (10 - int(round((i + 1) / height * 100, 0) // 10))}]")
 
 ASCIIimg.save("output.jpg")
