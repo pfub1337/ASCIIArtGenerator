@@ -11,3 +11,4 @@ fontPath - path to the font file. String;
 fontSize - font size. Integer;
 imgName - name of the source image. String.
 ```
+To convert an image to ASCII, you need to move the original image to the program folder, rename the image to _source.jpg_ or the name that is specified in the _config.txt_, then run the program.
